@@ -1,0 +1,27 @@
+{
+  "name": "dto-validator",
+  "version": "1.0.0",
+  "description": "A simple DTO schema with validation for TypeScript",
+  "license": "MIT",
+  "author": {
+    "email": "guijacobsen@gmail.com",
+    "name": "Guilherme Jacobsem",
+    "url": "https://github.com/guijacobsen"
+  },
+  "main": "src/index.ts",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
