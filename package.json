@@ -8,7 +8,7 @@
     "name": "Guilherme Jacobsem",
     "url": "https://github.com/guijacobsen"
   },
-  "main": "src/index.ts",
+  "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc --project tsconfig.build.json",
