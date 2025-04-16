@@ -1,5 +1,5 @@
 {
-  "name": "dto-validator",
+  "name": "@guijacobsen/dto-validator",
   "version": "1.0.0",
   "description": "A simple DTO schema with validation for TypeScript",
   "license": "MIT",
